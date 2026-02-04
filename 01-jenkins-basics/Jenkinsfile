@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        SERVER_CREDS = credetentials("server-creds")
+        SERVER_CREDS = credentials("server-creds")
     }
     stages {
         stage('Setup') {
