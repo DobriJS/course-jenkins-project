@@ -8,13 +8,7 @@ pipeline {
             steps {
                 echo "my creds: ${SERVER_CREDS}
                 echo "Username:  ${SERVER_CREDS_USR}"
-               /*  withCredentials([usernamePassword(credentialsId: 'server-creds', usernameVariable: "myuser", passwordVariable: "mypassword")]) {
-
-                    sh '''
-                    echo ${myuser}
-                    echo ${mypassword}
-                    '''
-                } */
+             
 
                 
 
