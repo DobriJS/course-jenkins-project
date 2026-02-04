@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Setup') {
             steps {
-                echo "my creds: ${SERVER_CREDS}
+                echo "my creds: ${SERVER_CREDS}"
                 echo "Username:  ${SERVER_CREDS_USR}"
              
 
